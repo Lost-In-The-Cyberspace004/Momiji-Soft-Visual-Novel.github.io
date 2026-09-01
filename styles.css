@@ -1,0 +1,107 @@
+button {
+    border-radius: 22px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: weight;
+}
+
+.InterfazUno {
+    background-image: url('Imagenes/Montania_Youkai.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    border: 3px solid white;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Dancing Script', cursive;
+    font-weight: weight;
+    border-radius: 22px;
+    box-shadow: 2px 2px 8px black;
+    padding: 1%;
+}
+
+.Imagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.InterfazDos {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12px;
+    display: flex;
+}
+
+#BotonJugar {
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    color: white;
+
+    font-family: 'Dancing Script', cursive;
+    font-weight: weight;
+    font-size: 22px;
+
+    text-shadow: 2px 2px 2px black;
+}
+
+#BotonNotas {
+    width: 200px;
+    height: 45px;
+    background-color: white;
+    color: black;
+
+    font-family: 'Dancing Script', cursive;
+    font-weight: weight;
+    font-size: 22px;
+
+    text-shadow: 2px 2px 10px white;
+}
+
+#Musica {
+    width: 200px;
+    height: 45px;
+    background-color: rgb(0, 132, 255);
+    color: white;
+
+    font-family: 'Dancing Script', cursive;
+    font-weight: weight;
+    font-size: 22px;
+
+    text-shadow: 2px 2px 2px black;
+}
+
+#ContenedorDeDialogos {
+    color: white;
+    margin-top: 0;
+}
+
+#ContenedorDeBotones {
+    display: flex;
+    justify-Content: center;
+    align-Items: center;
+    font-family: 'Dancing Script', cursive;
+    font-weight: weight;
+}
+
+#ListaDeMusica,
+#NotasDelDesarrollador {
+    background-color: rgb(0, 132, 255);
+    border-radius: 22px;
+    border: 2px solid white;
+    margin: 22px;
+    text-shadow: 2px 2px 3px black;
+    box-shadow: 2px 2px 8px black;
+    color: white;
+    display: none;
+}
+
+#NotasDelDesarrollador {
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    text-shadow: 2px 2px 3px white;
+    box-shadow: 2px 2px 8px white;
+}
