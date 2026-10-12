@@ -170,7 +170,7 @@ function Tiempos() {
     ControlDeBotones.disabled = true;
     setTimeout(() => {
         ControlDeBotones.disabled = false;
-    }, 10000);
+    }, 0);
 }
 
 function BotonPausaMusica() {
